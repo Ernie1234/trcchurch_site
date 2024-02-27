@@ -1,12 +1,11 @@
-import { Link, useParams } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { navLinks } from "../constants/data";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
-  const pathname = useParams().path;
-  console.log(pathname);
+  const pathname = useLocation().pathname;
 
   const toggleFn = () => {
     setIsOpen((prev) => !prev);
@@ -17,8 +16,7 @@ function NavBar() {
 
   return (
     <>
-      {" "}
-      <nav className="w-full sticky top-0 z-50 shadow-md bg-white">
+      <nav className="w-full sticky top-0 z-50 shadow-md bg-white py-4">
         <div className="max-w-screen-lg w-full mx-auto my-0 flex justify-between items-center">
           <Link to="/" className="flex items-center self-stretch ">
             <img alt="Logo" src="/assets/Logo.png" className="w-8" />
@@ -28,7 +26,9 @@ function NavBar() {
               <Link
                 key={link.title}
                 to={link.url}
-                className={`pathname === link.url ? 'text-rose-500' : 'text-black'`}
+                className={`${
+                  pathname === link.url ? " text-rose-500 " : " text-black"
+                }`}
               >
                 {link.title}
               </Link>
