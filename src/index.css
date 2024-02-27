@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 @layer components {
+  .heading__line::after {
+    content: ""; /* Empty content */
+    display: block; /* Make it a block-level element */
+    border-top: 1px solid rgb(244 63 94); /* Style the line (adjust color, thickness, etc. as needed) */
+    margin-top: 10px; /* Add spacing between the element and the line */
+  }
   @keyframes moveInLeft {
     0% {
       opacity: 0;

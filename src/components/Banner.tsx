@@ -3,7 +3,7 @@ import { Button1 } from ".";
 const Banner = () => {
   return (
     <div className="relative h-[65vh] md:h-[90vh] w-full">
-      <div className="absolute top-0 left-0 z-10 h-full w-full opacity-100 hidden">
+      <div className="absolute top-0 left-0 z-10 h-full w-full opacity-100 overflow-hidden">
         <video
           autoPlay
           muted
@@ -16,14 +16,13 @@ const Banner = () => {
         </video>
       </div>
 
-      <div className="w-full h-full bg-slate-950/40 z-20 absolute flex justify-center items-center">
+      <div className="w-full h-full bg-gray-900/90 z-20 absolute flex justify-center items-center">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-white uppercase text-center mb-8 ">
-            <span className="block font-bold tracking-wide moveInLeft">
+            <span className="block font-bold text-8xl tracking-wider moveInLeft">
               Welcome to
             </span>
-
-            <span className="block text-2xl tracking-wide font-medium moveInRight">
+            <span className="block text-3xl tracking-wider font-medium moveInRight">
               the risen christ christian centre
             </span>
           </h1>
