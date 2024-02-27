@@ -14,9 +14,8 @@ function NavBar() {
           <Link to="/" className="flex items-center self-stretch ">
             <img alt="Logo" src="/assets/Logo.png" className="w-12 md:w-16" />
           </Link>
-          <div>
-            {" "}
-            <ul className="hidden md:flex items-center self-stretch">
+          <div className="h-full flex items-center">
+            <ul className="hidden md:flex items-center self-stretch ">
               {navLinks.map((link) => (
                 <Link
                   key={link.title}
@@ -25,7 +24,7 @@ function NavBar() {
                     pathname === link.url
                       ? "border-b border-rose-500 text-rose-500 font-bold"
                       : "text-black hover:bg-rose-500 hover:text-white"
-                  } py-0 px-4 font-semibold text-lg capitalize flex items-center h-full transition-all duration-300 cursor-pointer`}
+                  } px-4 font-semibold text-lg capitalize flex items-center h-full transition-all duration-300 cursor-pointer`}
                 >
                   {link.title}
                 </Link>
