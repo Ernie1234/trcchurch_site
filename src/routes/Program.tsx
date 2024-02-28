@@ -8,12 +8,13 @@ function Program() {
         main1="our"
         main2="live Programs"
         main3="and features"
-        url="/images/growth.webp"
+        url="https://scontent-los2-1.xx.fbcdn.net/v/t39.30808-6/429658262_17891751863986364_1665409532342786712_n.jpg?stp=c0.87.1440.1440a_dst-jpg_s851x315&_nc_cat=109&ccb=1-7&_nc_sid=3d9721&_nc_eui2=AeHhVTbPzfMEE-Hq10mHfQ3bOhbTrafM3Os6FtOtp8zc64Xxk0qXZU-szcYw0s9N_-sWhDNzpyZjtniYqPWLEUqv&_nc_ohc=lYvO1Ert3I4AX9lsYpp&_nc_ht=scontent-los2-1.xx&oh=00_AfAGimHwwbGLtAvimyEpm3R-euF3ElEPla9p6bTA-t-BvQ&oe=65E459DD"
       />
       <div className="w-[70vw] mt-16 md:mt-20 lg:mt-28">
         <Heading main="Live events" sub="Our live programs and shows" />
       </div>
       <Live />
+
       <div className="w-[70vw] mt-16 md:mt-20 lg:mt-28">
         <Heading main="Our Programs" sub="features and events" />
       </div>

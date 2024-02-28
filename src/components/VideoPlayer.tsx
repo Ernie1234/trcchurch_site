@@ -1,11 +1,12 @@
+import ReactPlayer from "react-player";
+
 interface IVideo {
   videosrc: string;
 }
 
-//todo: install react video player
 function VideoPlayer({ videosrc }: IVideo) {
   return (
-    <div className="relative h-[35rem] md:h-[65rem] lg:h-[85rem]">
+    <div className="flex w-11/12 min-h-96 h-[95vh] mx-auto px-8 md:px-0  ">
       <ReactPlayer
         width="100%"
         height="100%"

@@ -3,7 +3,7 @@ import VideoPlayer from "./VideoPlayer";
 const Live = () => {
   return (
     <div className="py-0 px-8">
-      <VideoPlayer videosrc="video url" />
+      <VideoPlayer videosrc="https://www.youtube.com/watch?v=cxj_pGEYdC0" />
 
       <div className="py-4 px-8">
         <h1 className="text-3xl pb-4">title</h1>
