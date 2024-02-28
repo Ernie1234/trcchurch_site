@@ -12,7 +12,6 @@ function Program() {
     setLoading(true);
     client.fetch(programQuery).then((data) => {
       setPrograms(data);
-      console.log(data);
       setLoading(false);
     });
   }, []);

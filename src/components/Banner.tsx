@@ -1,6 +1,13 @@
+import { useNavigate } from "react-router-dom";
 import { Button1 } from ".";
 
 const Banner = () => {
+  const navigate = useNavigate();
+
+  const handleBtnClick = () => {
+    navigate("/program");
+  };
+
   return (
     <div className="relative h-[65vh] md:h-[90vh] w-full">
       <div className="absolute top-0 left-0 z-10 h-full w-full opacity-100 overflow-hidden">
@@ -26,7 +33,7 @@ const Banner = () => {
               the risen christ christian centre
             </span>
           </h1>
-          <Button1 title="watch messages" />
+          <Button1 title="watch messages" handleFn={handleBtnClick} />
         </div>
       </div>
     </div>

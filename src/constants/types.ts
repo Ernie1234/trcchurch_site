@@ -17,3 +17,14 @@ export type TPrograms = {
   date: string;
   info: string;
 };
+
+export type TLive = {
+  title: string;
+  url: string;
+  programTheme?: string;
+  ministering?: string;
+  date: string;
+  // timeStart?: string;
+  // duration?: number;
+  // description?: string;
+};

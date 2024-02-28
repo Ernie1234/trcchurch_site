@@ -34,6 +34,13 @@ export const programDetails = (slug: string) => {
    programUrl,
    contactInfo,
    theme
-}`;
+  }`;
   return query;
 };
+
+export const liveQuery = `*[_type == 'liveVideo'] | order(_createAt desc) {
+   title,
+   url,
+   programTheme,
+   date
+}`;
