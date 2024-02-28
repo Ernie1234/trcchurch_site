@@ -31,7 +31,7 @@ function Contact() {
             cols={30}
             rows={10}
           ></textarea>
-          <Button1 title="Send" />
+          <Button1 title="Send" handleFn={() => {}} />
         </form>
       </div>
     </div>
