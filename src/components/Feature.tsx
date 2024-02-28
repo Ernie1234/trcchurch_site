@@ -1,8 +1,8 @@
-function Feature() {
+function Feature({ paddingTop = "pt-0" }: { paddingTop: string }) {
   return (
     <section
       id="our story"
-      className="grid grid-cols-2 pt-36 px-0 pb-24 shadow-sm md:shadow-md lg:shadow-lg"
+      className={`grid grid-cols-2 px-0 shadow-sm md:shadow-md lg:shadow-lg ${paddingTop}`}
     >
       <div className="ft_bg" />
       <div className="bg-white py-8 px-[8vw] flex flex-col justify-center items-start">

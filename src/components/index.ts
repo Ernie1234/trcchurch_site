@@ -3,5 +3,8 @@ export { default as Button1 } from "./Button1";
 export { default as Story } from "./Story";
 export { default as Banner } from "./Banner";
 export { default as Card } from "./Card";
+export { default as Live } from "./Live";
+export { default as Header } from "./Header";
+export { default as Wrapper } from "./Wrapper";
 export { default as Heading } from "./Heading";
 export { default as Feature } from "./Feature";

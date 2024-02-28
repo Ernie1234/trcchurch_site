@@ -5,7 +5,7 @@ function Home() {
     <div className="bg-gray-100">
       <Banner />
       <Story />
-      <Feature />
+      <Feature paddingTop="pt-12 md:pt-28 lg:pt-36" />
       <div className="py-24 px-0">
         <Heading sub="what's happening" main="featured events" width="40vw" />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center p-3 md:p-8 lg:p-12 ">
