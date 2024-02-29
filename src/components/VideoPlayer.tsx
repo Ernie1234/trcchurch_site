@@ -6,7 +6,7 @@ interface IVideo {
 
 function VideoPlayer({ videosrc }: IVideo) {
   return (
-    <div className="flex w-11/12 mx-auto px-8 md:px-0">
+    <div className="flex w-full md:w-11/12 mx-auto px-8 md:px-0">
       <ReactPlayer
         width="100%"
         height="100%"

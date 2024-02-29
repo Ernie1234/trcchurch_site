@@ -26,10 +26,10 @@ const Banner = () => {
       <div className="w-full h-full bg-gray-900/90 z-20 absolute flex justify-center items-center">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-white uppercase text-center mb-8 ">
-            <span className="block font-bold text-8xl tracking-wider moveInLeft">
+            <span className="block font-bold text-4xl md:text-6xl lg:text-8xl  tracking-wider moveInLeft">
               Welcome to
             </span>
-            <span className="block text-3xl tracking-wider font-medium moveInRight">
+            <span className="block text-lg md:xl: lg:text-3xl tracking-wider font-medium moveInRight">
               the risen christ christian centre
             </span>
           </h1>

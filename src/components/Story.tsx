@@ -4,11 +4,11 @@ export default function Story() {
   return (
     <section
       id="our story"
-      className="grid grid-cols-1 md:grid-cols-2 pt-32 pb-32 px-0 gap-16"
+      className="grid grid-cols-1 md:grid-cols-2 pt-10 md:pt-32 pb-32 px-0 gap-16"
     >
       <div className="">
         <Heading main="our story" sub="weekly gathering" />
-        <p className="text-black text-xl pt-8 pl-24">
+        <p className="text-black text-xl pt-8 px-8 md:px-0 md:pl-20 lg:pl-24">
           You matter to God and you matter to us. You are of infinite worth. And
           we{`'`}re so glad you{`'`}re here. The Risen Christ Christian Centre
           is made up of real people, living real lives, making mistakes,
@@ -16,7 +16,7 @@ export default function Story() {
           next steps toward Christ and helping others do the same.
         </p>
       </div>
-      <div className="relative flex justify-center items-center w-full">
+      <div className="relative hidden md:flex justify-center items-center w-full">
         <img
           alt="story1"
           src="https://scontent.fabv3-2.fna.fbcdn.net/v/t39.30808-6/412275809_922965339435456_7683383515863341908_n.jpg?stp=dst-jpg_s851x315&_nc_cat=107&ccb=1-7&_nc_sid=3d9721&_nc_eui2=AeF7cYZCc4OgVBzivWXLIyZlGBVlFCSz40sYFWUUJLPjSziy5dNmaFVDqS1SgKTmXHg_abSGHQFhLV4hh9wksfpC&_nc_ohc=8JFogI8NnvoAX8J5187&_nc_zt=23&_nc_ht=scontent.fabv3-2.fna&oh=00_AfDkYwjHjWWNRwYTdc-lcPD2SIeKjSTAfBkx996a5LG0og&oe=65E330F2"

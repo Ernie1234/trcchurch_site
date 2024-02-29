@@ -27,13 +27,13 @@ const Live = () => {
   return (
     <div className="py-0 px-8">
       <VideoPlayer videosrc={live?.url} />
-      <div className="w-11/12 mx-auto p-5">
-        <h1 className="font-semibold text-3xl md:text-5xl lg:text-7xl text-gray-600 pb-3">
+      <div className="w-full md:w-11/12 mx-auto p-5">
+        <h1 className="font-semibold text-4xl md:text-5xl lg:text-7xl text-gray-600 pb-3">
           {live?.title}
         </h1>
 
-        <div className="flex gap-8">
-          <p className="text-2xl md:text-3xl lg:text-4xl pb-4 ">
+        <div className="flex flex-col md:flex-row gap-1 md:gap-8">
+          <p className="text-2xl md:text-3xl lg:text-4xl  ">
             {live?.programTheme}
           </p>
           <p className="text-2xl md:text-3xl lg:text-4xl">{`Info: ${live?.date}`}</p>
