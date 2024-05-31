@@ -10,7 +10,7 @@
         rgba(232, 82, 82, 0.3),
         rgba(245, 61, 70, 0.3)
       ),
-      url(https://scontent.fabv3-1.fna.fbcdn.net/v/t39.30808-6/349044932_558434359810666_2416832609354309027_n.jpg?stp=dst-jpg_s851x315&_nc_cat=111&ccb=1-7&_nc_sid=3d9721&_nc_eui2=AeE1PEpKdqXBpSO3Pr_SoB5DXVPLJ0_8EG5dU8snT_wQblLPAJZn3IDa4LcJGhEc9S70QmhwrshkXIdNaO6XKsdI&_nc_ohc=Rxo9iCUHwpgAX9NaJVw&_nc_zt=23&_nc_ht=scontent.fabv3-1.fna&oh=00_AfDzu081e51MRm6XIe-mXJetkna7NhtS6ZVRgKordySsVQ&oe=65E33F9F);
+      url(/assets/12.png);
     background-size: cover;
     display: grid;
     grid-template-rows: repeat(6, 1fr);

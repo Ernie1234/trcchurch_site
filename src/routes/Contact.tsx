@@ -7,7 +7,7 @@ function Contact() {
         sub="contact us"
         main1="Let's keep"
         main2="in touch"
-        url="https://scontent-los2-1.xx.fbcdn.net/v/t39.30808-6/429654293_17891751881986364_9028925723236850813_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeEgqV7RWAHaOtS3VC8T_fbRudk1UAPgdq652TVQA-B2rp4A0EhoOnjhEowIIXMAOVGlbxwAPyNi10riHkJEMI-C&_nc_ohc=L8Flep3zfGIAX_ckG9W&_nc_ht=scontent-los2-1.xx&oh=00_AfCiOMAu8zdV3QyGhu85t2Bjasl-6oBC4EsYTYpBN-7dbQ&oe=65E3B438"
+        url="/public/assets/contact1.jpg"
         main3=""
       />
       <div className="w-[70vw] mt-12 md:mt-24 ">
