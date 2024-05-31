@@ -9,4 +9,3 @@ export { default as Wrapper } from "./Wrapper";
 export { default as Heading } from "./Heading";
 export { default as Feature } from "./Feature";
 export { default as MasonryLayoutGrid } from "./MasonryLayoutGrid";
-export { default as GalleryCard } from "./GalleryCard";

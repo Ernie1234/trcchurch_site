@@ -44,3 +44,11 @@ export const liveQuery = `*[_type == 'liveVideo'] | order(_createAt desc) {
    programTheme,
    date
 }`;
+export const galleryQuery = `*[_type == 'gallery'] | order(_createAt desc) {
+   image{
+      asset -> {
+        url
+      }
+    },
+    id
+}`;

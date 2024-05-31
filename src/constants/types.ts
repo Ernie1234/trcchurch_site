@@ -28,3 +28,11 @@ export type TLive = {
   // duration?: number;
   // description?: string;
 };
+
+export type TGallery = {
+  image: {
+    asset: {
+      url: string;
+    };
+  };
+};

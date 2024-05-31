@@ -9,66 +9,74 @@ export const navLinks = [
 export const gallery = [
   {
     id: 1,
-    url: "/public/assets/1.jpeg",
+    url: "/assets/1.jpeg",
   },
   {
     id: 2,
-    url: "/public/assets/10.jpeg",
+    url: "/assets/10.jpeg",
   },
   {
     id: 3,
-    url: "/public/assets/11.png",
+    url: "/assets/11.png",
   },
   {
     id: 5,
-    url: "/public/assets/2.jpg",
+    url: "/assets/2.jpg",
   },
   {
     id: 6,
-    url: "/public/assets/3.png",
+    url: "/assets/3.png",
   },
   {
     id: 4,
-    url: "/public/assets/12.png",
+    url: "/assets/12.png",
   },
   {
     id: 7,
-    url: "/public/assets/3.png",
+    url: "/assets/3.png",
   },
   {
     id: 8,
-    url: "/public/assets/4.jpeg",
+    url: "/assets/4.jpeg",
   },
   {
     id: 9,
-    url: "/public/assets/5.png",
+    url: "/assets/5.png",
   },
   {
     id: 10,
-    url: "/public/assets/6.jpeg",
+    url: "/assets/6.jpeg",
   },
   {
     id: 11,
-    url: "/public/assets/7.png",
+    url: "/assets/7.png",
   },
   {
     id: 12,
-    url: "/public/assets/8.jpeg",
+    url: "/assets/8.jpeg",
   },
   {
     id: 13,
-    url: "/public/assets/9.png",
+    url: "/assets/9.png",
   },
   {
     id: 13,
-    url: "/public/assets/Anniv.jpg",
+    url: "/assets/Anniv.jpg",
   },
   {
     id: 14,
-    url: "/public/assets/Pastor.jpg",
+    url: "/assets/Pastor.jpg",
   },
   {
     id: 14,
-    url: "/public/assets/Sunday.jpg",
+    url: "/assets/Sunday.jpg",
   },
 ];
+export const breakpointColumnsObj = {
+  default: 4,
+  3000: 6,
+  2000: 5,
+  1200: 3,
+  1000: 2,
+  500: 1,
+};

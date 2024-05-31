@@ -7,7 +7,7 @@ function Contact() {
         sub="contact us"
         main1="Let's keep"
         main2="in touch"
-        url="/public/assets/contact1.jpg"
+        url="/assets/contact1.jpg"
         main3=""
       />
       <div className="w-[70vw] mt-12 md:mt-24 ">
